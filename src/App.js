@@ -13,9 +13,11 @@ function App() {
 
           <Route path='/' component={Home} exact/>
 
+          <Route path='/resume' component={Resume} />
+
           <Route path='/blog' component={Blog} />
 
-          <Route path='/resume' component={Resume} />
+          <Route path='/blog/:name' component={}/>
 
         </Switch> 
       </div>

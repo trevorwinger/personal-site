@@ -4,7 +4,7 @@ const Header = ({headerText}) => {
     return(
         <div>
             <h1>{headerText}</h1>
-            <h4>A {<ReactTypingEffect text={['computer scientist', 'graduate student', 'software engineer', 'bad blogger']}/>}from Minnesota</h4>
+            <h4>A {<ReactTypingEffect text={['computer scientist', 'graduate student', 'engineer', 'bad blogger', 'entrepreneur']}/>}from Minnesota</h4>
         </div>
     )
 }
